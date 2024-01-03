@@ -1,0 +1,49 @@
+.schedule {
+    min-width: 95%;
+}
+
+.schedule table {
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 50px;
+    /* Ajusta el radio de las esquinas según tus necesidades */
+    overflow: hidden;
+    /* Para asegurar que los bordes redondeados se apliquen correctamente */
+}
+
+.schedule th,
+.schedule td {
+    /* border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left; */
+    border: 10px 0px 0px 0px solid transparent;
+    padding: 40px;
+    /* Ajusta el espacio interno de las celdas según tus necesidades */
+    text-align: left;
+    background-color: var(--white3);
+}
+
+.schedule th {
+    background-color: var(--white3);
+}
+
+.schedule tbody tr:last-child td {
+    border-bottom: var(--white3) solid 10px;
+}
+
+.schedule div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.announcement-box {
+    background-color: var(--secondary);
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

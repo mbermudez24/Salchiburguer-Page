@@ -1,0 +1,35 @@
+.nav {
+    min-width: 100%;
+}
+
+/* Estilos para el segundo elemento de navegación */
+.eLNniN-nav {
+    background-color: var(--secondary);
+    padding: 30px;
+    text-align: center;
+}
+
+.eLNniN-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.eLNniN-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.eLNniN-nav a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    background-color: var(--secondary-dark);
+    /* Añade el color de fondo que desees */
+    border-radius: 10px;
+    /* Añade el radio de las esquinas que desees */
+}

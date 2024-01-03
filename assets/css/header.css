@@ -1,0 +1,74 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Ajusta el ancho según tus necesidades */
+    height: 22%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    background-color: var(--primary);
+    /* Añade el color de fondo que desees */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    /* Ajusta el valor según la necesidad de superposición con otros elementos */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    /* Ajusta el espacio entre la imagen y el texto */
+}
+
+.logo img {
+    width: 150px;
+    /* Ajusta el tamaño de la imagen según tus necesidades */
+    border-radius: 50%;
+    /* Para hacer la imagen circular */
+    margin-right: 10px;
+    /* Ajusta el margen entre la imagen y el texto */
+}
+
+.info p {
+    margin: 0;
+    /* Elimina el margen por defecto */
+    color: var(--white);
+    /* Ajusta el color del texto según tus necesidades */
+    font-weight: bold;
+    /* Ajusta el grosor del texto según tus necesidades */
+    font-size: 1.125rem;
+}
+
+nav {
+    gap: 10px;
+    /* Ajusta el espacio entre los enlaces según tus necesidades */
+    padding: 10px;
+    /* Ajusta el espacio entre el borde del div y los enlaces según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--black);
+    /* Ajusta el color del texto según tus necesidades */
+    font-weight: bold;
+    /* Ajusta el grosor del texto según tus necesidades */
+    font-size: 1.125rem;
+    /* 18px */
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s, border-radius 0.3s;
+}
+
+nav a:hover {
+    background-color: var(--primary-dark);
+    /* Añade el color de fondo que desees */
+    color: var(--white);
+    /* Ajusta el color del texto según tus necesidades */
+    border-radius: 10px;
+    /* Añade el radio de las esquinas que desees */
+}

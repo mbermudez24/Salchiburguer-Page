@@ -1,0 +1,55 @@
+.social {
+    text-align: center;
+    /* Alinea el contenido al centro horizontalmente */
+    margin-top: 30px;
+}
+
+.social h2 {
+    margin-bottom: 20px;
+    /* Agrega un espacio en la parte inferior del encabezado */
+}
+
+.social-box {
+    display: flex;
+    justify-content: center;
+    /* Alinea los elementos hijos al centro horizontalmente */
+    gap: 20px;
+}
+
+.social-box a {
+    text-decoration: none;
+    color: #333;
+}
+
+.social-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    /* Efecto de escala al pasar el mouse sobre el icono */
+}
+
+/* Estilos específicos para cada ícono */
+.instagram {
+
+    background: linear-gradient(45deg, rgba(64, 93, 230, 0.8), rgba(88, 81, 219, 0.8), rgba(131, 58, 180, 0.8), rgba(193, 53, 132, 0.8), rgba(225, 48, 108, 0.8), rgba(253, 29, 29, 0.8));
+}
+
+
+.whatsapp {
+    background-color: var(--green);
+}
